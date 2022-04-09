@@ -1,0 +1,10 @@
+{
+  "providers": [
+    {
+      "type": "ttf",
+      "file": "deviousmod:inter.ttf",
+      "size": 12,
+      "oversample": 2
+    }
+  ]
+}

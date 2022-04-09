@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "deviousmod",
+  "version": "${version}",
+  "name": "DeviousMod",
+  "icon": "assets/deviousmod/logo.png",
+  "description": "Be devious™.",
+  "authors": [
+    "allink"
+  ],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "me.allink.deviousmod.client.DeviousModClient"
+    ],
+    "main": [
+      "me.allink.deviousmod.DeviousMod"
+    ]
+  },
+  "mixins": [
+    "DeviousMod.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.7",
+    "fabric": "*",
+    "minecraft": "1.18.2"
+  },
+  "suggests": {
+    "notenoughcrashes": "*"
+  },
+  "conflicts": {
+    "multiconnect": "*"
+  }
+}

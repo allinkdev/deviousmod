@@ -1,0 +1,10 @@
+{
+  "providers": [
+    {
+      "type": "ttf",
+      "file": "deviousmod:comic.ttf",
+      "size": 12,
+      "oversample": 2
+    }
+  ]
+}

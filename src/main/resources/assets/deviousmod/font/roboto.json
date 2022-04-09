@@ -1,0 +1,10 @@
+{
+  "providers": [
+    {
+      "type": "ttf",
+      "file": "deviousmod:roboto.ttf",
+      "size": 12,
+      "oversample": 2
+    }
+  ]
+}
